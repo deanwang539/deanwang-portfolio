@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dean's Portfolio</title>
+</head>
+<body>
+	<header>
+		<h1>Xiaochuan Wang</h1>
+		<nav>
+			<a href = "index.html">{{title1}}</a>
+			<a href = "pet.html">{{title2}}</a>
+			<a href = "game.html">{{title3}}</a>
+			<a href = "login.html">{{title4}}</a>
+		</nav>
+	</header>
+	{% block content %}
+	You should never see this content.  It should be replaced.
+	{% endblock %}
+	<footer>
+		<p>Copyright &copy; Xiaochuan Wang from <a href="https://www.si.umich.edu/">UMSI</a>.</p>
+	</footer>
+</body>
+</html>
