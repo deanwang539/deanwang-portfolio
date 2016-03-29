@@ -1,8 +1,6 @@
 /*
-
-Landing Zero theme - A free landing page theme from BootstrapZero
-http://www.bootstrapzero.com
-
+Created by Landing Zero theme 
+Modified by Dean Wang
 */
 
 @import url(https://fonts.googleapis.com/css?family=Questrial);
@@ -67,11 +65,6 @@ p {
 
 .bg-primary {
     background-color: #333;
-}
-
-.bg-dark {
-    color: #eee;
-    background-color: #222;
 }
 
 .cursive {
@@ -233,7 +226,8 @@ header {
     color: #fff;
     width: 100%;
     background-color: #c9c9c9;
-    background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');
+    /*picture retrieved from http://images-eds.xboxlive.com/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToArPGBBXsy0BgxeTKyXK32EuYv17xALJlk1K1zfmFqaHkmnN6MEpNtqpttKYUBs4n3Ljl7.O5OspFZtN7rodJ0G1HtLllS5m.upk2Ehr__7G6MTRNmXqEGoXqIGgekjT.1HaCU6kqB54m9lf2Oe7OvD*/
+    background-image: url('../pictures/benchwarmer.png');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
