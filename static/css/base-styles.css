@@ -7,7 +7,7 @@
 	height: auto;
 }
 
-a.page-scroll{
+a.nav-text{
 	font-size: 1.1em !important;
 }
 
@@ -25,6 +25,10 @@ a.navbar-brand.page-scroll{
 /*customize the tabs for "Projects" section*/
 .nav-tabs>li>a{
 	font-size: 1.5em;
+}
+
+.my-button{
+	background-color: #025aa5 !important;
 }
 
 @media only screen and (max-width: 768px) {
