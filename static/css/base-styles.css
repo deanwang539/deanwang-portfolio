@@ -1,0 +1,47 @@
+#nav-mobile{
+	display: none;
+}
+
+.profile-img{
+	width: 55px;
+	height: auto;
+}
+
+a.navbar-brand.page-scroll{
+	padding-top: 0.1em !important;
+	font-size: 1.5em !important;
+}
+
+a.page-scroll{
+	font-size: 1.2em !important;
+}
+
+@media only screen and (max-width: 640px) {
+	/* For mobile phones: */
+	#nav-desktop{
+		display: none;
+	}
+
+	#nav-mobile{
+		display: block;
+	}
+
+	.profile-img{
+		width: 47px;
+		height: auto;
+	}
+
+	a.navbar-brand.page-scroll{
+		padding-top: 0.1em !important;
+	}
+
+	a.navbar-brand.page-scroll{
+		padding-top: 0.1em !important;
+		font-size: 1.3em !important;
+	}
+
+	a.page-scroll{
+		font-size: 1em !important;
+	}
+}
+
