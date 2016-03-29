@@ -8,12 +8,23 @@
 }
 
 a.page-scroll{
-	font-size: 1.3em !important;
+	font-size: 1.1em !important;
 }
 
 a.navbar-brand.page-scroll{
 	padding-top: 0.1em !important;
 	font-size: 2em !important;
+}
+
+/*global background-color*/
+.bg-white {
+    color: #eee;
+    background-color: #FFFFFF;
+}
+
+/*customize the tabs for "Projects" section*/
+.nav-tabs>li>a{
+	font-size: 1.5em;
 }
 
 @media only screen and (max-width: 768px) {
@@ -33,10 +44,7 @@ a.navbar-brand.page-scroll{
 
 	a.navbar-brand.page-scroll{
 		padding-top: 0.1em !important;
-	}
-
-	a.navbar-brand.page-scroll{
-		padding-top: 0.1em !important;
+		font-size: 1.5em !important;
 	}
 
 	a.page-scroll{
@@ -46,6 +54,8 @@ a.navbar-brand.page-scroll{
 	#toggle-video,#video-background{
 		display: none;
 	}
+
+	.nav-tabs>li>a{
+		font-size: 1.2em;
+	}
 }
-
-

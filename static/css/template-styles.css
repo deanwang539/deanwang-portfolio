@@ -67,11 +67,6 @@ p {
     background-color: #333;
 }
 
-.bg-dark {
-    color: #eee;
-    background-color: #222;
-}
-
 .cursive {
     font-family: 'Dancing Script', cursive;
     text-transform: none;
