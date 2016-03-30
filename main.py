@@ -20,9 +20,15 @@ class IndexHandler(webapp2.RequestHandler):
     	template = JINJA_ENVIRONMENT.get_template('templates/index.html')
         self.response.write(template.render())
 
+class AaacfHandler(webapp2.RequestHandler):
+    def get(self):
+    	template = JINJA_ENVIRONMENT.get_template('templates/aaacf.html')
+        self.response.write(template.render())
+
 app = webapp2.WSGIApplication([
     ('/', IndexHandler),
 	('/index', IndexHandler),
+	('/aaacf', AaacfHandler)
 ], debug=True)
 
 # exception handler, redirect

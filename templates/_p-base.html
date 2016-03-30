@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Dean's Projects</title>
+    <meta name="description" content="This is a Dean Wang's projects page." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="static/css/bootstrap.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/base-styles.css" />
+    <link rel="stylesheet" href="static/css/template-styles.css" />
+  </head>
+<body>
+    <!-- navigation bar -->
+	 <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll nav-text" href=""><span><img src="static/pictures/dean.png" alt="Dean" class="img-circle profile-img"><i class="ion-ios-pulse-strong"></i>Dean Wang</span></a>
+            </div>
+            <div class="navbar-collapse collapse" id="bs-navbar">
+                <ul id="nav-desktop" class="nav navbar-nav pull-right">
+                    <li>
+                        <a class="page-scroll nav-text" href="index#one">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll nav-text" href="index#two">Experience</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll nav-text" href="indexindex#three">Extracurricular</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll nav-text" href="index#four">Contact</a>
+                    </li>
+                </ul>
+                <ul id="nav-mobile" class="nav navbar-nav">
+                    <li>
+                        <a class="page-scroll nav-text" href="index#one">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll nav-text" href="index#two">Experience</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll nav-text" href="index#three">Extracurricular</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll nav-text" href="index#four">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- header -->
+	<header id="first">
+        <div class="header-content">
+            <div class="inner">
+                <h1 class="cursive">Simple, One Page Design</h1>
+                <h4>A free landing page theme with video background</h4>
+                <hr>
+                <a href="#video-background" id="toggle-video" data-toggle="collapse" class="btn btn-primary btn-xl ">Toggle Video</a>&nbsp;<a href="#one" class="btn btn-primary btn-xl page-scroll">&nbsp;&nbsp;Get Started&nbsp;</a>
+            </div>
+        </div>
+        <video autoplay="" loop="" muted class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="static/pictures/benchwarmer_poster.png" id="video-background">
+            <!-- Video by Noble, retrieved from https://www.youtube.com/watch?v=RBr4f_raIvU.
+                 Modified by Dean Wang -->
+            <source src="static/videos/halo5.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+    </header>
+	{% block content %}
+	You should never see this content.  It should be replaced.
+	{% endblock %}
+    <!-- footer -->
+	<footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 text-muted text-center">
+                    ©2016&nbsp;&nbsp;Designed by Dean Wang
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <ul class="list-inline">
+                      <li><a rel="nofollow" href="https://www.linkedin.com/in/deanwong0805" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+                    </ul>
+                </div>
+            </div>  
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script src="static/js/template-scripts.js"></script>
+  </body>
+</html>
