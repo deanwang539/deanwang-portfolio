@@ -29,6 +29,19 @@ a.navbar-brand.page-scroll{
 
 .my-button{
 	background-color: #025aa5 !important;
+	border: none !important;
+	padding-bottom: 20px !important;
+}
+
+/*custom navbar height*/
+div.navbar-header{
+	height:60px;
+}
+
+/*adjust section padding*/
+section#one, section#two, section#three, section#four{
+	padding-top: 3em !important;
+	padding-bottom: 0em !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -39,11 +52,6 @@ a.navbar-brand.page-scroll{
 
 	#nav-mobile{
 		display: block;
-	}
-
-	.profile-img{
-		width: 47px;
-		height: auto;
 	}
 
 	a.navbar-brand.page-scroll{
@@ -61,5 +69,11 @@ a.navbar-brand.page-scroll{
 
 	.nav-tabs>li>a{
 		font-size: 1.2em;
+	}
+
+	/*adjust section padding*/
+	section#one, section#two, section#three, section#four{
+		padding-top: 3em !important;
+		padding-bottom: 3em !important;
 	}
 }
