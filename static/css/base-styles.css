@@ -39,9 +39,15 @@ div.navbar-header{
 }
 
 /*adjust section padding*/
-section#one, section#two, section#three, section#four{
-	padding-top: 3em !important;
-	padding-bottom: 0em !important;
+section#three{
+/*	padding-top: 3em !important;*/
+	padding-bottom: 2em !important;
+}
+
+@media only screen and (max-width: 979px) {
+	.navbar-default{
+		background-color: #222 !important;
+	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -69,11 +75,5 @@ section#one, section#two, section#three, section#four{
 
 	.nav-tabs>li>a{
 		font-size: 1.2em;
-	}
-
-	/*adjust section padding*/
-	section#one, section#two, section#three, section#four{
-		padding-top: 3em !important;
-		padding-bottom: 3em !important;
 	}
 }
