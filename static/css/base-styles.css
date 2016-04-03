@@ -8,8 +8,20 @@
 }
 
 a.nav-text{
-	font-size: 1.1em !important;
+	font-size: 1.2em !important;
 }
+
+/*change the default purple navbar text hover color*/
+.navbar-default .nav > li.active>a, .navbar-default .nav > li>a:hover{
+    color: #2979FF !important;
+}
+
+/*change the default purple navbar-brand text color*/
+.navbar-default.affix .navbar-header .navbar-brand{
+	color: rgba(255,255,255,0.8) !important;
+}
+
+/*#757575*/
 
 a.navbar-brand.page-scroll{
 	padding-top: 0.1em !important;
@@ -42,6 +54,45 @@ div.navbar-header{
 section#three{
 /*	padding-top: 3em !important;*/
 	padding-bottom: 2em !important;
+}
+
+/*color of title for each section*/
+.text-primary{
+	color: rgba(255,255,255,0.8);
+	font-weight: bold;
+}
+
+.text-primary-dark{
+	font-weight: bold;
+	color: #4E342E;
+}
+
+#my-projects li.active a{
+	color: #2196F3;
+} 
+
+#my-projects li a:hover{
+	color: #2196F3;
+}
+
+#my-projects li a{
+	color: white;
+} 
+
+.leadership-color{
+	color: #4CAF50;
+}
+
+.community-color{
+	color: #e53935;
+}
+
+.linkedin-color{
+	color: #F5F5F5;
+}
+
+.contact-color{
+	color:black;
 }
 
 @media only screen and (max-width: 979px) {
