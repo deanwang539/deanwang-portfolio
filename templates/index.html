@@ -181,8 +181,8 @@
                 <hr>
                 <div class="media wow fadeIn">
                     <h3>Communication</h3>
-                    <div class="media-left">
-                        <a href="#alertModal" data-toggle="modal" data-target="#alertModal"><i class="icon-lg ion-speakerphone"></i></a>
+                    <div class="media-left communication-color">
+                        <i class="icon-lg ion-speakerphone"></i>
                     </div>
                     <div class="media-body media-middle">
                         <p>To make connections, I participated in various organization events and had chances to know people with different backgrounds.</p>
@@ -275,10 +275,10 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-sm-6 col-xs-12">
+                    <div class="col-lg-4 col-sm-12 col-xs-12">
                         <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="static/pictures/life6.jpg">
-                            <img src="static/pictures/life6.jpg" class="img-responsive" alt="Image 6">
-                            <div class="gallery-box-caption">
+                            <img src="static/pictures/life6.jpg" class="img-responsive" alt="Image 6" >
+                            <div class="gallery-box-caption" style="width:100%">
                                 <div class="gallery-box-content">
                                     <div>
                                         <i class="icon-lg ion-ios-search"></i>
@@ -333,25 +333,25 @@
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <form class="contact-form row" action="sendMail" method="post">
                         <div class="col-md-4">
-                            <label></label>
-                            <input type="text" class="form-control" value="Your Name" name="yourName">
+                            <label for="name">Your Name</label>
+                            <input type="text" class="form-control" name="yourName" id="name">
                         </div>
                         <div class="col-md-4">
-                            <label></label>
-                            <input type="email" class="form-control" value="Your Email" name="yourEmail" required>
+                            <label for="email">Your Email</label>
+                            <input type="email" class="form-control" name="yourEmail" id="email" required>
                         </div>
                         <div class="col-md-4">
-                            <label></label>
-                            <input type="text" class="form-control" value="Your Phone" name="yourPhone">
+                            <label for="phone">Your Phone</label>
+                            <input type="text" class="form-control" name="yourPhone" id="phone">
                         </div>
                         <div class="col-md-12">
-                            <label></label>
-                            <textarea class="form-control" rows="9" name="yourMsg">Your message here...</textarea>
+                            <label for="msg">Your Message</label>
+                            <textarea class="form-control" rows="9" name="yourMsg" id="msg"></textarea>
                         </div>
                         <div class="col-md-4 col-md-offset-4">
-                            <label></label>
+                            <!-- <label></label> -->
                             <br><br>
-                            <input type="submit" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-lg my-button" value="Send">
+                            <button  data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-lg my-button">Send</button>
                             <br>
                             <br>
                             <div class="text-center">
@@ -360,8 +360,6 @@
                         </div>
                     </form>
                 </div>
-               
-            </div>
             </div>
         </div>
     </section>

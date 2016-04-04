@@ -10,8 +10,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="static/css/base-styles.css" />
     <link rel="stylesheet" href="static/css/template-styles.css" />
+    <link rel="stylesheet" href="static/css/base-styles.css" />
     <link rel="stylesheet" href="static/css/project-styles.css" />
   </head>
 <body>
@@ -62,6 +62,121 @@
 	{% block content %}
 	You should never see this content.  It should be replaced.
 	{% endblock %}
+    <div class="col-lg-12 text-center">
+        <h2 class="margin-top-0 text-primary">PROJECTS</h2>
+        <ul class="nav nav-tabs" id="my-projects">
+            <li class="active"><a data-toggle="tab" href="#all-projects">All</a></li>
+            <li><a data-toggle="tab" href="#ux-projects">UX</a></li>
+            <li><a data-toggle="tab" href="#ui-projects">UI</a></li>
+            <li><a data-toggle="tab" href="#web-applications">Web Apps</a></li>
+        </ul>
+        <div class="tab-content">
+            <!-- All projects -->
+            <div id="all-projects" class="tab-pane fade in active">
+                <div class="row">
+                     <div class="col-xs-12 col-sm-6 col-md-4 project-item">
+                        <br>
+                        <a href="aaacf">
+                            <img class="img-responsive" src="static/pictures/aaacf-501.jpg" alt="AAACF-501">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 project-item">
+                        <br>
+                        <a href="aore">
+                            <img class="img-responsive" src="static/pictures/aore-622.jpg" alt="AORE-622">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 project-item">
+                        <br>
+                        <a href="ecommunity">
+                            <img class="img-responsive" src="static/pictures/ecommunity-582.jpg" alt="ECommunity-582">
+                        </a>
+                    </div>                        
+                    <div class="col-xs-12 col-sm-6 col-md-4 project-item">
+                        <br>
+                        <a href="umclinical">
+                            <img class="img-responsive" src="static/pictures/umclinical-2016.jpg" alt="umclinical">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 project-item">
+                        <br>
+                        <a href="candc">
+                            <img class="img-responsive" src="static/pictures/candc-2016.jpg" alt="Candc">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 project-item">
+                        <br>
+                        <a href="dobbinIII">
+                            <img class="img-responsive" src="static/pictures/dobbinIII.jpg" alt="DobbinIII">
+                        </a>
+                    </div>
+                   <!--  <div class="col-xs-12 col-sm-6 col-md-4 project-item">
+                        <br>
+                        <a href="#">
+                            <img class="img-responsive" src="http://placehold.it/700x400" alt="Forum">
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+            <!-- UX projects -->
+            <div id="ux-projects" class="tab-pane fade">
+                <div class="row">
+                     <div class="col-xs-12 col-sm-6 col-md-4 project-item">
+                        <br>
+                        <a href="aaacf">
+                            <img class="img-responsive" src="static/pictures/aaacf-501.jpg" alt="AAACF-501">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 project-item">
+                        <br>
+                        <a href="aore">
+                            <img class="img-responsive" src="static/pictures/aore-622.jpg" alt="AORE-622">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- UI projects -->
+            <div id="ui-projects" class="tab-pane fade">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 project-item">
+                        <br>
+                        <a href="ecommunity">
+                            <img class="img-responsive" src="static/pictures/ecommunity-582.jpg" alt="ECommunity-582">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 project-item">
+                        <br>
+                        <a href="umclinical">
+                            <img class="img-responsive" src="static/pictures/umclinical-2016.jpg" alt="umclinical">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Web Apps -->
+            <div id="web-applications" class="tab-pane fade">
+                <div class="row">
+                     <div class="col-xs-12 col-sm-6 col-md-4 project-item">
+                        <br>
+                        <a href="candc">
+                            <img class="img-responsive" src="static/pictures/candc-2016.jpg" alt="Candc">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 project-item">
+                        <br>
+                        <a href="dobbinIII">
+                            <img class="img-responsive" src="static/pictures/dobbinIII.jpg" alt="DobbinIII">
+                        </a>
+                    </div>
+                <!--     <div class="col-xs-12 col-sm-6 col-md-4 project-item">
+                        <br>
+                        <a href="#">
+                            <img class="img-responsive" src="http://placehold.it/700x400" alt="Forum">
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+            </div>
+        </div>
     <!-- footer -->
 	<footer id="footer">
         <div class="container-fluid">
@@ -73,7 +188,7 @@
             <div class="row">
                 <div class="col-xs-12 text-center">
                     <ul class="list-inline">
-                      <li><a class="linkedin-color" rel="nofollow" href="https://www.linkedin.com/in/deanwong0805" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+                      <li><a class="linkedin-color" rel="nofollow" href="https://www.linkedin.com/in/deanwong0805" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i>Linkedin</a></li>
                     </ul>
                 </div>
             </div>  
